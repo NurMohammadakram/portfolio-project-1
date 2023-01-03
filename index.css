@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 20px;
+    margin: 0;
+    background-color: rgb(255, 58, 23);
+    background-attachment: fixed;
+    
+}
+.header-container .logo-container {
+    display: flex;
+    align-items: center;
+    
+}
+.header-container .logo-container img {
+    width: 35px;
+    display: flex;
+    align-items: center;
+}
+#main-logo img {
+    box-shadow: 2px 2px 5px rgb(44, 44, 44);
+}
+.logo-container h4 {
+    color: white;
+    font-family: Low Budget;
+    font-size: 22px;
+    font-weight: 500;
+    /* font-stretch: ultra-expanded; */
+    margin: 0;
+    padding-left: 10px;
+}
+.main-content ul {
+    padding-inline-start: 0;
+}
+.main-content ul li{
+    padding: 0 10px;
+    display: inline-block;
+    font-family: helvetica;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+
+.home-section {
+    height: 600px;
+    background-color: #07697a;
+    background-image: url('./aurora.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+
+    
+}
+.home-section {
+    
+    /* background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    /* width: 1350px;
+    height: 600px; */
+}
+.services-section {
+    display: flex;
+}
+.contact-section {
+    padding: 20px 30px;
+}
+.contact-section h4 {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .form-content {
+    padding: 0 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.name-field {
+    margin-bottom: 10px;
+}
+.email-tel-field {
+    margin-bottom: 10px;
+}
+.name-field input{
+    padding: 10px 5px 10px;
+}
+.email-tel-field input{
+    padding: 10px 5px 10px;
+}
+#website {
+    padding: 10px 5px 10px; 
+    margin-bottom: 10px;
+}
+#msg {
+    padding: 10px 5px 10px; 
+    margin-bottom: 10px;
+}
+#btn {
+    padding: 5px 10px;
+    font-size: 16px;
+}
